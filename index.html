@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, intial-scale=1.0">
+        <title>Atim's Quiz App</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div class="quiz-wrapper">
+
+            <div class="question" id="questionBox">
+                Question
+            </div>
+
+            <div class="options">
+                <ul id="ul">
+                    <li id="opt1" onclick="button(this)"></li>
+                    <li id="opt2" onclick="button(this)"></li>
+                    <li id="opt3" onclick="button(this)"></li>
+                    <li id="opt4" onclick="button(this)"></li>
+                </ul>
+            </div>
+        
+            <div class="score">
+
+                <div class="next">
+                    <button id="btnNext" type="button" onclick="next()">Next</button>
+                </div>
+
+                <div class="score-card">
+                    SCORE: <span id="scoreCard">0</span>
+                </div>
+
+            </div>
+
+        </div>
+
+        <script src="script.js"></script>
+
+    </body>
+</html>
